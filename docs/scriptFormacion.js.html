@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>scriptFormacion.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-cargarDrive.html">cargarDrive</a><ul class='methods'><li data-type='method'><a href="module-cargarDrive.html#~saveFile">saveFile</a></li></ul></li><li><a href="module-codigoGS.html">codigoGS</a><ul class='methods'><li data-type='method'><a href="module-codigoGS.html#~checkPoliticas">checkPoliticas</a></li><li data-type='method'><a href="module-codigoGS.html#~findData">findData</a></li><li data-type='method'><a href="module-codigoGS.html#~findData2">findData2</a></li><li data-type='method'><a href="module-codigoGS.html#~findDataRegistro">findDataRegistro</a></li><li data-type='method'><a href="module-codigoGS.html#~getJSON">getJSON</a></li><li data-type='method'><a href="module-codigoGS.html#~include">include</a></li><li data-type='method'><a href="module-codigoGS.html#~listas">listas</a></li><li data-type='method'><a href="module-codigoGS.html#~politicas">politicas</a></li><li data-type='method'><a href="module-codigoGS.html#~postInDB">postInDB</a></li><li data-type='method'><a href="module-codigoGS.html#~userDatos">userDatos</a></li><li data-type='method'><a href="module-codigoGS.html#~userId">userId</a></li></ul></li><li><a href="module-codigoGS2.html">codigoGS2</a><ul class='methods'><li data-type='method'><a href="module-codigoGS2.html#~fechas">fechas</a></li><li data-type='method'><a href="module-codigoGS2.html#~findData3">findData3</a></li><li data-type='method'><a href="module-codigoGS2.html#~findDataRegistro2">findDataRegistro2</a></li><li data-type='method'><a href="module-codigoGS2.html#~postInDB">postInDB</a></li></ul></li><li><a href="module-loguin.html">loguin</a><ul class='methods'><li data-type='method'><a href="module-loguin.html#~checkLogin">checkLogin</a></li><li data-type='method'><a href="module-loguin.html#~doGet">doGet</a></li><li data-type='method'><a href="module-loguin.html#~doPost">doPost</a></li><li data-type='method'><a href="module-loguin.html#~PutValues">PutValues</a></li><li data-type='method'><a href="module-loguin.html#~ShowValues">ShowValues</a></li></ul></li><li><a href="module-scriptExperiencia.html">scriptExperiencia</a><ul class='methods'><li data-type='method'><a href="module-scriptExperiencia.html#~agregar">agregar</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~aplicarFormacion">aplicarFormacion</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~deleteExperiencia">deleteExperiencia</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~editarExperiencia">editarExperiencia</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~guardarInfo">guardarInfo</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~iniciar">iniciar</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~limpiarForm">limpiarForm</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~tablaVinculados">tablaVinculados</a></li></ul></li><li><a href="module-scriptFormacion.html">scriptFormacion</a><ul class='methods'><li data-type='method'><a href="module-scriptFormacion.html#~agregar">agregar</a></li><li data-type='method'><a href="module-scriptFormacion.html#~alertaMsn">alertaMsn</a></li><li data-type='method'><a href="module-scriptFormacion.html#~aplicarFormacion">aplicarFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~arrayObjetos">arrayObjetos</a></li><li data-type='method'><a href="module-scriptFormacion.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptFormacion.html#~cargarInfo">cargarInfo</a></li><li data-type='method'><a href="module-scriptFormacion.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptFormacion.html#~deleteFormacion">deleteFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~editarFormacion">editarFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptFormacion.html#~guardarInfo">guardarInfo</a></li><li data-type='method'><a href="module-scriptFormacion.html#~iniciar">iniciar</a></li><li data-type='method'><a href="module-scriptFormacion.html#~limpiarForm">limpiarForm</a></li><li data-type='method'><a href="module-scriptFormacion.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptFormacion.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptFormacion.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptFormacion.html#~tablaVinculados">tablaVinculados</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionAdjunto">validacionAdjunto</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionEstudios">validacionEstudios</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionTarjeta">validacionTarjeta</a></li></ul></li><li><a href="module-scriptHome.html">scriptHome</a><ul class='methods'><li data-type='method'><a href="module-scriptHome.html#~aceptar">aceptar</a></li><li data-type='method'><a href="module-scriptHome.html#~checkPoliticas">checkPoliticas</a></li></ul></li><li><a href="module-scriptInfoLab.html">scriptInfoLab</a><ul class='methods'><li data-type='method'><a href="module-scriptInfoLab.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~cedulaInfoLab">cedulaInfoLab</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~datosInfoLab">datosInfoLab</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~deleteConocimiento">deleteConocimiento</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~especialidadList">especialidadList</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~objeto">objeto</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~post">post</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~tablaEspecialidad">tablaEspecialidad</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~tipoList">tipoList</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~validacion">validacion</a></li></ul></li><li><a href="module-scriptIngresos.html">scriptIngresos</a><ul class='methods'><li data-type='method'><a href="module-scriptIngresos.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptIngresos.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptIngresos.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptIngresos.html#~cedulaIngresos">cedulaIngresos</a></li><li data-type='method'><a href="module-scriptIngresos.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptIngresos.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptIngresos.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptIngresos.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptIngresos.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptIngresos.html#~scrollFunction">scrollFunction</a></li></ul></li><li><a href="module-scriptLoguin.html">scriptLoguin</a><ul class='methods'><li data-type='method'><a href="module-scriptLoguin.html#~mostrarPassword">mostrarPassword</a></li></ul></li><li><a href="module-scriptMapa.html">scriptMapa</a><ul class='methods'><li data-type='method'><a href="module-scriptMapa.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptMapa.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptMapa.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptMapa.html#~cedulaMapa">cedulaMapa</a></li><li data-type='method'><a href="module-scriptMapa.html#~datosMapa">datosMapa</a></li><li data-type='method'><a href="module-scriptMapa.html#~deleteConocimiento">deleteConocimiento</a></li><li data-type='method'><a href="module-scriptMapa.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptMapa.html#~objeto">objeto</a></li><li data-type='method'><a href="module-scriptMapa.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptMapa.html#~post">post</a></li><li data-type='method'><a href="module-scriptMapa.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptMapa.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptMapa.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptMapa.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptMapa.html#~tablaConocimientos">tablaConocimientos</a></li><li data-type='method'><a href="module-scriptMapa.html#~validacion">validacion</a></li></ul></li><li><a href="module-scriptRegistro.html">scriptRegistro</a><ul class='methods'><li data-type='method'><a href="module-scriptRegistro.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptRegistro.html#~alertaYellow">alertaYellow</a></li><li data-type='method'><a href="module-scriptRegistro.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptRegistro.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptRegistro.html#~botonAddPersonas">botonAddPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosHijos">datosHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~deleteHijo">deleteHijo</a></li><li data-type='method'><a href="module-scriptRegistro.html#~deletePersona">deletePersona</a></li><li data-type='method'><a href="module-scriptRegistro.html#~enableInput">enableInput</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedFormHijos">filedFormHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedFormPersonas">filedFormPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~formPersonas">formPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptRegistro.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptRegistro.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptRegistro.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptRegistro.html#~tablaHijos">tablaHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~tablaVinculados">tablaVinculados</a></li><li data-type='method'><a href="module-scriptRegistro.html#~validarHijos">validarHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~validarPersonas">validarPersonas</a></li></ul></li><li><a href="module-scriptVivienda.html">scriptVivienda</a><ul class='methods'><li data-type='method'><a href="module-scriptVivienda.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptVivienda.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptVivienda.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptVivienda.html#~cedulaVivienda">cedulaVivienda</a></li><li data-type='method'><a href="module-scriptVivienda.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptVivienda.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptVivienda.html#~getJSON">getJSON</a></li><li data-type='method'><a href="module-scriptVivienda.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptVivienda.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptVivienda.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptVivienda.html#~scrollFunction">scrollFunction</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">scriptFormacion.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>
+
+/**
+ * scriptFormacion
+ * @module scriptFormacion
+ */
+
+
+
+var formacionAcademica = [];
+var persona = {};
+var ruta = "";
+var archivos = [];
+var indices = [];
+var statusRegistro = false;
+var formacionPost = []
+var indice = 0;
+var idPersonas = 0;
+var banderaPersonas = 0;
+
+
+var formAcademic = {
+
+    nivelEsc: '',
+    universidad: '',
+    titulo: '',
+    fechaGraduacion: '',
+    opEstudio: '',
+    formFile: '',
+    switchCheck: '',
+    numTarjeta: '',
+    seccional: '',
+    expedicion: ''
+
+}
+
+
+/**
+ * Inicia todo lo que contenga la función al cargar la página en el navegador.
+ * @function iniciar
+ */
+window.onload = function iniciar() {
+
+    //comprueba si se diligencio previamente y trae los datos
+    google.script.run.withSuccessHandler(filedForm).findDataRegistro2('Formación')
+    google.script.run.withSuccessHandler(perfil).ShowValues()
+
+
+}
+
+/**
+ * Carga el nombre del usuario logueado y lo muestra en la etiqueta con id perfil.
+ * @function perfil
+ * @param {object} user Trae los valores almacenados en la memoria cache.
+ */
+perfil = (user) => {
+
+    const per = document.getElementById("perfil")
+    per.innerHTML = user.name
+
+}
+
+
+
+/**
+ * Cuando carga la página muesta la tabla con información enviada desde la base de datos 
+ * @function filedForm
+ * @param {string} info Es un objeto convertido a string que se muestra cuando retorna la función findDataRegistro2('Formación').
+ * 
+ */
+const filedForm = (info) => {
+
+    info = JSON.parse(info)
+    console.log(info.datos)
+
+
+    if (!Object.keys(info).length == 0) {
+
+
+        //Valida si el objeto info trae la opción Formación
+        if (info.global == "Formación") {
+
+            persona.cedula = info.datos[0][1]
+
+
+            //Ingresa los datos de la tabla formación
+            for (i = 0; i &lt; info.datos.length; i++) {
+
+                formacionAcademica.push({
+
+                    fecha: info.datos[i][0],
+                    cedula: info.datos[i][1],
+                    nivelEsc: info.datos[i][2],
+                    universidad: info.datos[i][3],
+                    titulo: info.datos[i][4],
+                    estado: info.datos[i][5],
+                    fechaGraduacion: info.datos[i][6],
+                    adjunto: info.datos[i][7],
+                    tarjeta: info.datos[i][8],
+                    numTarjeta: info.datos[i][9],
+                    seccional: info.datos[i][10],
+                    expedicion: info.datos[i][11]
+
+                })
+                idPersonas = info.datos[i][12]
+
+                const valor = 100
+                barraProgreso(valor)
+                var status = document.getElementById("estadoForm")
+                status.innerHTML = '&lt;span class="badge bg-success text-white">Guardado&lt;/span>'
+            }
+
+            tablaVinculados()
+
+        } else if (info.global == "Registro") {
+
+            persona.cedula = info.datos[3]
+
+        }
+
+    } else {
+
+        var msn = `&lt;div class="alert alert-warning alert-dismissible fade show" role="alert">
+                           &lt;strong>No se encuntra registrado!&lt;/strong> Por favor realice previamente su registro antes de agregar formación academica.
+                           &lt;button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">&lt;/button>
+                    &lt;/div>`;
+
+        var noRegistro = document.getElementById('noRegistro')
+        noRegistro.innerHTML = msn;
+        console.log('Esta vacio')
+    }
+
+}
+
+
+
+//Get the button subir
+let mybutton = document.getElementById("btn-back-to-top");
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+    ) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+
+function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+
+/**
+ * Agrega el valor de avance en la barra de progreso
+ * @param {number} valor valor que sera cargado en la barra de progreso
+ */
+function barraProgreso(valor) {
+    const barra = document.querySelector('.progress-bar')
+    barra.setAttribute("style", `width: ${valor}%`)
+    barra.setAttribute("aria-valuenow", valor)
+    barra.innerHTML = `${valor}%`
+}
+
+
+
+
+/**
+ * calcula el progreso
+ * @function progreso
+ * @returns {number} Retorna el valor total de los campos validadados.
+*/
+const progreso = () => {
+
+    let activos = 0
+    let validos = 0
+
+
+    for (item in formAcademic) {
+        const campo = document.getElementById(item)
+
+        if (!campo.hasAttribute('disabled')) {
+            activos += 1
+        }
+        if (campo.checkValidity() &amp;&amp; !campo.hasAttribute('disabled')) {
+            validos += 1
+        }
+
+    }
+    let valor = Math.round(validos * 100 / activos)
+
+    console.log('este es el vaor ' + valor)
+    return valor
+
+}
+
+
+
+/**
+ * Valida si el estado esta en curso o finalizado.
+ * @function validacionEstudios
+ * @param {boolean} check Si el valor es verdadero deshabilita los inputs, si es falso los habilita.
+*/
+const validacionEstudios = (check) => {
+
+
+
+    if (check) {
+        document.getElementById("fechaGraduacion").disabled = true;
+        document.getElementById("fechaGraduacion").value = "";
+
+    } else {
+
+        document.getElementById("fechaGraduacion").disabled = false;
+
+    }
+}
+
+/**
+ * Valida si tiene tarjeta profesional o no.
+ * @function validacionTarjeta
+ * @param {boolean} check Si el valor es verdadero habilita los inputs, si es falso los deshabilita.
+*/
+const validacionTarjeta = (check) => {
+
+    if (check) {
+
+        document.getElementById("numTarjeta").disabled = false;
+        document.getElementById("seccional").disabled = false;
+        document.getElementById("expedicion").disabled = false;
+        document.querySelector('#numTarjeta').required = true;
+        document.querySelector('#seccional').required = true;
+        document.querySelector('#expedicion').required = true;
+        document.getElementById("numTarjeta").focus()
+        console.log('ingreso en true')
+
+    } else {
+
+        document.getElementById("numTarjeta").disabled = true;
+        document.getElementById("numTarjeta").value = "";
+        document.getElementById("seccional").disabled = true;
+        document.getElementById("seccional").value = "";
+        document.getElementById("expedicion").disabled = true;
+        document.getElementById("expedicion").value = "";
+        document.querySelector('#numTarjeta').required = false;
+        document.querySelector('#seccional').required = false;
+        document.querySelector('#expedicion').required = false;
+        console.log('ingreso en false')
+    }
+
+}
+
+
+/**
+ * Limpia los inputs del formulario.
+ * @function limpiarForm
+*/
+const limpiarForm = () => {
+
+    //document.getElementById('formFormacion').classList.remove("was-validated");
+    const formsA = document.getElementById('formFormacion')
+    const status = document.getElementById("estadoForm")
+
+    formsA.reset()
+
+    document.getElementById("fechaGraduacion").disabled = false;
+    document.getElementById("fechaGraduacion").value = '';
+    document.getElementById("opEstudio").checked = false;
+    document.getElementById("switchCheck").checked = false;
+
+
+    document.getElementById("numTarjeta").disabled = true;
+    document.getElementById("seccional").disabled = true;
+    document.getElementById("expedicion").disabled = true;
+
+    status.innerHTML = "";
+    $("#progress").css("display", "none");
+    $("#btnCargar").css("display", "none");
+    ruta = ""
+
+}
+
+/**
+ * Valida la información del formulario y alimenta el array que genera la tabla.
+ * @function datosPersonas
+*/
+const datosPersonas = () => {
+
+    const nivelEsc = document.getElementById("nivelEsc");
+    const universidad = document.getElementById("universidad");
+    const titulo = document.getElementById("titulo");
+    const opEstudio = document.getElementById("opEstudio").checked;
+    const opTarjeta1 = document.getElementById("switchCheck").checked;
+    const fechaGraduacion = document.getElementById("fechaGraduacion");
+    const numTarjeta = document.getElementById("numTarjeta");
+    const seccional = document.getElementById("seccional");
+    const expedicion = document.getElementById("expedicion");
+
+    if (opTarjeta1) {
+
+        var opTarjeta = "Si";
+    } else {
+
+        var opTarjeta = "No";
+    }
+
+    if (opEstudio) {
+        var opEst = "En curso"
+    } else {
+        var opEst = "Finalizado"
+    }
+
+    const fecha = (new Date(Date.now())).toLocaleDateString()
+
+    formacionAcademica.push({
+        fecha: fecha || "",
+        cedula: persona.cedula || "",
+        nivelEsc: nivelEsc.value || "",
+        universidad: universidad.value || "",
+        titulo: titulo.value || "",
+        estado: opEst || "",
+        fechaGraduacion: fechaGraduacion.value || "",
+        adjunto: ruta || "",
+        tarjeta: opTarjeta || "",
+        numTarjeta: numTarjeta.value || "",
+        seccional: seccional.value || "",
+        expedicion: expedicion.value || ""
+
+    })
+
+    formacionAcademica.forEach(element => console.log(element));
+
+    //Generamos la tabla
+    tablaVinculados()
+
+
+}
+
+/**
+ * Envia la información al back para luego ser enviada a la base de datos
+ * @function guardarInfo
+ */
+const guardarInfo = () => {
+
+
+    var status = document.getElementById("estadoForm")
+    status.innerHTML = '&lt;span class="badge bg-success text-white">Guardado&lt;/span>'
+
+    //Agregamos la fecha 
+    const fecha = (new Date(Date.now())).toLocaleDateString()
+    formacionAcademica.fecha = fecha
+
+    //Agregamos el id y transformamos los objetos en arrays
+    idPersonas += 1
+    for (i = 0; i &lt; formacionAcademica.length; i++) {
+        formacionAcademica[i].id = idPersonas
+
+        formacionPost.push(Object.values(formacionAcademica[i]))
+    }
+
+    google.script.run.postInDB2(Object.values(formacionPost), "Formación", 1, false);
+
+
+    formacionPost = []
+
+    var toastMsn = {
+        bg: "bg-success",
+        title: "Guardado",
+        msn: "Se a guardado correctamente",
+        icon: "fas fa-check"
+    }
+    alertaMsn(toastMsn)
+
+}
+
+
+/**
+ * Crea la tabla con los datos de la formación académica 
+ * @function tablaVinculados
+ * @returns {string} Retorna el html de la tabla.
+ */
+const tablaVinculados = () => {
+
+    var table = `&lt;div class="container table-responsive">
+          
+          &lt;table class="table table-hover mb-4 text-center">
+            &lt;thead class="bg-dark text-white">
+              &lt;tr>
+                &lt;th scope="col">Nivel Escolar&lt;/th>
+                &lt;th scope="col">Universidad&lt;/th>
+                &lt;th scope="col">Título&lt;/th>
+                &lt;th scope="col">Estado&lt;/th>
+                &lt;th scope="col">Tarjeta Profesional&lt;/th>
+                &lt;th scope="col">Documento&lt;/th>
+                &lt;th scope="col">Borrar&lt;/th>
+                &lt;th scope="col">Editar&lt;/th>
+             &lt;/tr>
+            &lt;/thead>
+            &lt;tbody>
+            ${formacionAcademica.map(function (form, index) {
+        return (
+
+
+            `&lt;tr>
+                   &lt;td>${form.nivelEsc}&lt;/td>
+                    &lt;td>${form.universidad}&lt;/td>
+                    &lt;td>${form.titulo}&lt;/td>
+                    &lt;td>${form.estado}&lt;/td>
+                    &lt;td>${form.tarjeta}&lt;/td>
+                     &lt;td>${form.adjunto != '' ?
+                `&lt;a href=${form.adjunto} target="_blank">&lt;span>&lt;i class="far fa-eye">&lt;/i>&lt;/i>
+                      &lt;/span>&lt;/a>` :
+                `&lt;span>&lt;i class="far fa-eye-slash">&lt;/i>&lt;/i>&lt;/i>
+                      &lt;/span>&lt;/a>`
+
+            }
+                  &lt;/td>
+                   
+
+                    &lt;td>
+                         &lt;button class="btn " onclick="deleteFormacion(${index})">
+                         &lt;i class="fas fa-trash">&lt;/i>&lt;/button>
+                    &lt;/td>
+                      
+                     &lt;td>
+                        &lt;button onclick="editarFormacion(${index})" type="button"
+                        class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        &lt;i class="fas fa-edit">&lt;/i>
+                        &lt;/button>
+                    &lt;/td>
+            &lt;/tr>`
+        )
+    }).join(" ")
+        }
+            &lt;/tbody>
+            
+          &lt;/table>
+          
+  &lt;/div>`
+
+    document.getElementById("tablaPersonas").innerHTML = table
+    document.documentElement.scrollTop = document.documentElement.scrollHeight;
+
+}
+
+
+
+/**
+* Permite eliminar un valor de un array.
+* @function deleteFormacion 
+* @param {number} index Indice de la tabla de la función {@link tablaVinculados}
+*/
+const deleteFormacion = (index) => {
+
+
+    var toastMsn = {
+        bg: "bg-warning",
+        title: "Eliminado",
+        msn: "Se a eliminado el registro correctamente",
+        icon: "fas fa-exclamation-triangle"
+    }
+    alertaMsn(toastMsn)
+
+    if (formacionAcademica.length > 0) {
+
+        formacionAcademica.splice(index, 1)
+        console.log('este es el index ' + index)
+        tablaVinculados()
+
+    } else {
+        formacionAcademica = []
+        document.getElementById("tablaConocimientos").innerHTML = ""
+
+    }
+
+    var status = document.getElementById("estadoForm")
+    status.innerHTML = '&lt;span class="badge bg-warning text-dark">En progreso&lt;/span>'
+    statusRegistro = false
+}
+
+
+/**
+ * Permite ditar un valor de un array.
+ * @function editarFormacion 
+ * @param {number} index Indice de la tabla de la función {@link tablaVinculados}
+ */
+const editarFormacion = (index) => {
+
+    //Enviamos el valor de index a una variable global
+    indice = index;
+
+    //Creamos el boton para aplicar cambios en la edición
+    const buttonApply = `&lt;button onclick="aplicarFormacion()"id="addFormacion" type="button" class="btn btn-primary">Aplicar  Cambios&lt;/button>`
+
+    const bntAplicar = document.getElementById('bntAplicar')
+    bntAplicar.innerHTML = buttonApply;
+
+    const nivelEsc = document.getElementById("nivelEsc")
+    const universidad = document.getElementById("universidad")
+    const titulo = document.getElementById("titulo")
+
+    const opEstudio = document.getElementById("opEstudio")
+    const opTarjeta1 = document.getElementById("switchCheck")
+    const fechaGraduacion = document.getElementById("fechaGraduacion")
+    const numTarjeta = document.getElementById("numTarjeta")
+    const seccional = document.getElementById("seccional")
+    const expedicion = document.getElementById("expedicion")
+
+    const estado = formacionAcademica[index].estado;
+    const tarjeta = formacionAcademica[index].tarjeta;
+
+    if (estado == 'En curso') {
+
+        validacionEstudios(true)
+        opEstudio.checked = true
+
+    } else {
+        validacionEstudios(false)
+        opEstudio.checked = false
+    }
+
+
+    if (tarjeta == 'Si') {
+        opTarjeta1.checked = true;
+        validacionTarjeta(true)
+
+    } else {
+        opTarjeta1.checked = false;
+        validacionTarjeta(false)
+    }
+
+    formacionAcademica[index].cedula = persona.cedula;
+    nivelEsc.value = formacionAcademica[index].nivelEsc
+    universidad.value = formacionAcademica[index].universidad
+    titulo.value = formacionAcademica[index].titulo
+    fechaGraduacion.value = formacionAcademica[index].fechaGraduacion
+    numTarjeta.value = formacionAcademica[index].numTarjeta
+    seccional.value = formacionAcademica[index].seccional
+    expedicion.value = formacionAcademica[index].expedicion
+
+}
+
+
+/**
+ * Permite agregar nuevos registros a la tabla
+ * @function agregar
+ */
+const agregar = () => {
+
+    //limpiamos todo
+    limpiarForm()
+
+    //Se crea el boton para agregar registros
+    const buttonApply = `&lt;button type="button" id="comprobar" class="btn btn-primary">Guardar Cambios&lt;/button>`
+    const bntAplicar = document.getElementById('bntAplicar')
+    bntAplicar.innerHTML = buttonApply;
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.formFormacion')
+    var comprobar = document.getElementById('comprobar')
+    var status = document.getElementById("estadoForm")
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+            comprobar.addEventListener('click', function (event) {
+                status.innerHTML = '&lt;span class="badge bg-warning text-dark">En progreso&lt;/span>'
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    form.classList.add('was-validated')
+                }
+                else {
+                    event.preventDefault()
+                    datosPersonas()
+                    $('#exampleModal').modal('hide');
+                    //document.getElementById('formFormacion').reset();
+                    document.getElementById('formFormacion').noValidate = false;
+
+                }
+            }, false)
+        })
+
+    //Si existen modificaciones genera una alerta
+    Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+            form.addEventListener('change', function (event) {
+                status.innerHTML = '&lt;span class="badge bg-warning text-dark">En progreso&lt;/span>'
+
+                //Modificamos la barra de progreso constantemente
+                const valor = progreso()
+                if (valor == 100) {
+                    status.innerHTML = '&lt;span class="badge bg-success">Completo&lt;/span>'
+                }
+                barraProgreso(valor)
+
+            }, false)
+        })
+
+
+}
+
+/**
+ * Aplica los cambios realizados en la función editarFormacion()
+ * @function aplicarFormacion
+ */
+const aplicarFormacion = () => {
+
+    const nivelEsc = document.getElementById("nivelEsc").value
+    const universidad = document.getElementById("universidad").value
+    const titulo = document.getElementById("titulo").value
+    const opEstudio = document.getElementById("opEstudio").checked
+    var opEstudio1 = ""
+
+    if (opEstudio) {
+        opEstudio1 = "En curso";
+    } else {
+        opEstudio1 = "Finalizado";
+    }
+
+    console.log('este es el valor del indice ' + indice)
+
+    if (formacionAcademica.length > 0) {
+
+        formacionAcademica[indice].cedula = persona.cedula
+        formacionAcademica[indice].nivelEsc = nivelEsc
+        formacionAcademica[indice].universidad = universidad
+        formacionAcademica[indice].titulo = titulo
+        formacionAcademica[indice].estado = opEstudio1
+        formacionAcademica[indice].adjunto = ruta
+
+
+
+        $('#exampleModal').modal('hide');
+        document.getElementById('formFormacion').reset();
+        tablaVinculados()
+    }
+
+
+}
+
+
+/**
+ * Carga los documentos que se envian al drive.
+ * @function saveFile
+ * @param {object} file Datos de archivo cargado.
+ * @param {string} cedula Número de cedula de la persona a la cual se va a cargar la información.
+ */
+const saveFile = (file, cedula) => {
+    
+    const fr = new FileReader();
+    var id = '1HCDeqhmUpqQsQmY2y4cGU_t_6vJPWu2x'
+    fr.onload = function (e) {
+        const obj = {
+            filename: file.name,
+            mimeType: file.type,
+            bytes: [...new Int8Array(e.target.result)]
+        };
+        google.script.run.withSuccessHandler(validacionAdjunto).saveFile2(obj, cedula, id);
+        $("#progress").css("display", "flex");
+
+    };
+    fr.readAsArrayBuffer(file);
+}
+
+
+/**
+ * Valida que se carguen los archivos
+ * @function validacionAdjunto
+ * @param {Array} data Trae los datos del archivo que se va a cargar en la base de datos.
+ */
+const validacionAdjunto = (data) => {
+
+    var e = data[0];
+    var url = data[1];
+    //Envía la url a una variable global.
+    ruta = url;
+
+    if (e) {
+
+
+        $('#barra').removeClass('progress-bar-striped progress-bar-animated').addClass('bg-success');
+        $('#barra').text('Completo');
+        $('.archivo').val('');
+        archivos = [];
+
+
+    } else {
+
+        $('#barra').removeClass('progress-bar-striped progress-bar-animated').addClass('bg-danger');
+        $('#barra').text('Hubo un error');
+        $('#formFile').val('');
+        archivos = [];
+
+    }
+}
+
+
+
+/**
+ * Ejecuta el metodo que carga los archivos al drive.
+ * @function cargarInfo 
+ */
+const cargarInfo = () => {
+
+    var f = archivos[0];
+    var cedula = persona.cedula;
+
+    saveFile(f, cedula)
+
+}
+
+
+
+//Esta funcion carga todos los archivos en un array de objetos y de indices
+/**
+ * Carga todos los archivos en un array de objetos y de indices
+ * @param {object} f Es toda la información del archivo que se esta cargando como onchange desde el html.
+ */
+const arrayObjetos = (f) => {
+   
+    var objeto = f[0];
+    var file = objeto.files[0];
+
+    archivos.push(file);
+    var btnCargar = ` &lt;button type="button" onclick="cargarInfo()" id="btnCargar" class="btn btn-primary mt-2 float-end ">Cargar&lt;/button> `;
+    var divCargar = document.getElementById("divCargar")
+    divCargar.innerHTML = btnCargar;
+
+
+}
+
+/**
+ * Genera alerta apartir de valores enviados.
+ * @function alertaMsn
+ * @param {object} toastMsn Son los valores enviados para generar el tipo de alerta.
+ */
+const alertaMsn = (toastMsn) => {
+
+
+
+    var option = {
+        animation: true,
+        delay: 2000,
+    }
+
+    var toastBody =
+        `&lt;div class="toast-container position-fixed bottom-0 end-0 p-3">
+
+            &lt;div class="toast text-dark" role="alert" aria-live="assertive" aria-atomic="true">
+                &lt;div class="toast-header ${toastMsn.bg} text-dark">
+                    &lt;i class="${toastMsn.icon} rounded me-2">&lt;/i>
+                    &lt;strong class="me-auto">${toastMsn.title}&lt;/strong>
+                    &lt;small class="text-dark">Ahora&lt;/small>
+                    &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">&lt;/button>
+                &lt;/div>
+                &lt;div class="toast-body ${toastMsn.bg}">
+                ${toastMsn.msn}
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>`
+
+    const noti = document.getElementById('notificaciones').innerHTML = toastBody
+
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl, option)
+    })
+
+    toastList.map(function (toast) {
+        toast.show()
+    })
+}
+
+
+
+
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a> on Wed Oct 13 2021 09:52:21 GMT-0500 (hora estándar de Colombia) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>

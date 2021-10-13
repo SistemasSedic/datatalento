@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>codigoGS.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-cargarDrive.html">cargarDrive</a><ul class='methods'><li data-type='method'><a href="module-cargarDrive.html#~saveFile">saveFile</a></li></ul></li><li><a href="module-codigoGS.html">codigoGS</a><ul class='methods'><li data-type='method'><a href="module-codigoGS.html#~checkPoliticas">checkPoliticas</a></li><li data-type='method'><a href="module-codigoGS.html#~findData">findData</a></li><li data-type='method'><a href="module-codigoGS.html#~findData2">findData2</a></li><li data-type='method'><a href="module-codigoGS.html#~findDataRegistro">findDataRegistro</a></li><li data-type='method'><a href="module-codigoGS.html#~getJSON">getJSON</a></li><li data-type='method'><a href="module-codigoGS.html#~include">include</a></li><li data-type='method'><a href="module-codigoGS.html#~listas">listas</a></li><li data-type='method'><a href="module-codigoGS.html#~politicas">politicas</a></li><li data-type='method'><a href="module-codigoGS.html#~postInDB">postInDB</a></li><li data-type='method'><a href="module-codigoGS.html#~userDatos">userDatos</a></li><li data-type='method'><a href="module-codigoGS.html#~userId">userId</a></li></ul></li><li><a href="module-codigoGS2.html">codigoGS2</a><ul class='methods'><li data-type='method'><a href="module-codigoGS2.html#~fechas">fechas</a></li><li data-type='method'><a href="module-codigoGS2.html#~findData3">findData3</a></li><li data-type='method'><a href="module-codigoGS2.html#~findDataRegistro2">findDataRegistro2</a></li><li data-type='method'><a href="module-codigoGS2.html#~postInDB">postInDB</a></li></ul></li><li><a href="module-loguin.html">loguin</a><ul class='methods'><li data-type='method'><a href="module-loguin.html#~checkLogin">checkLogin</a></li><li data-type='method'><a href="module-loguin.html#~doGet">doGet</a></li><li data-type='method'><a href="module-loguin.html#~doPost">doPost</a></li><li data-type='method'><a href="module-loguin.html#~PutValues">PutValues</a></li><li data-type='method'><a href="module-loguin.html#~ShowValues">ShowValues</a></li></ul></li><li><a href="module-scriptExperiencia.html">scriptExperiencia</a><ul class='methods'><li data-type='method'><a href="module-scriptExperiencia.html#~agregar">agregar</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~aplicarFormacion">aplicarFormacion</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~deleteExperiencia">deleteExperiencia</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~editarExperiencia">editarExperiencia</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~guardarInfo">guardarInfo</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~iniciar">iniciar</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~limpiarForm">limpiarForm</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~tablaVinculados">tablaVinculados</a></li></ul></li><li><a href="module-scriptFormacion.html">scriptFormacion</a><ul class='methods'><li data-type='method'><a href="module-scriptFormacion.html#~agregar">agregar</a></li><li data-type='method'><a href="module-scriptFormacion.html#~alertaMsn">alertaMsn</a></li><li data-type='method'><a href="module-scriptFormacion.html#~aplicarFormacion">aplicarFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~arrayObjetos">arrayObjetos</a></li><li data-type='method'><a href="module-scriptFormacion.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptFormacion.html#~cargarInfo">cargarInfo</a></li><li data-type='method'><a href="module-scriptFormacion.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptFormacion.html#~deleteFormacion">deleteFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~editarFormacion">editarFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptFormacion.html#~guardarInfo">guardarInfo</a></li><li data-type='method'><a href="module-scriptFormacion.html#~iniciar">iniciar</a></li><li data-type='method'><a href="module-scriptFormacion.html#~limpiarForm">limpiarForm</a></li><li data-type='method'><a href="module-scriptFormacion.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptFormacion.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptFormacion.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptFormacion.html#~tablaVinculados">tablaVinculados</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionAdjunto">validacionAdjunto</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionEstudios">validacionEstudios</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionTarjeta">validacionTarjeta</a></li></ul></li><li><a href="module-scriptHome.html">scriptHome</a><ul class='methods'><li data-type='method'><a href="module-scriptHome.html#~aceptar">aceptar</a></li><li data-type='method'><a href="module-scriptHome.html#~checkPoliticas">checkPoliticas</a></li></ul></li><li><a href="module-scriptInfoLab.html">scriptInfoLab</a><ul class='methods'><li data-type='method'><a href="module-scriptInfoLab.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~cedulaInfoLab">cedulaInfoLab</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~datosInfoLab">datosInfoLab</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~deleteConocimiento">deleteConocimiento</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~especialidadList">especialidadList</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~objeto">objeto</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~post">post</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~tablaEspecialidad">tablaEspecialidad</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~tipoList">tipoList</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~validacion">validacion</a></li></ul></li><li><a href="module-scriptIngresos.html">scriptIngresos</a><ul class='methods'><li data-type='method'><a href="module-scriptIngresos.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptIngresos.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptIngresos.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptIngresos.html#~cedulaIngresos">cedulaIngresos</a></li><li data-type='method'><a href="module-scriptIngresos.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptIngresos.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptIngresos.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptIngresos.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptIngresos.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptIngresos.html#~scrollFunction">scrollFunction</a></li></ul></li><li><a href="module-scriptLoguin.html">scriptLoguin</a><ul class='methods'><li data-type='method'><a href="module-scriptLoguin.html#~mostrarPassword">mostrarPassword</a></li></ul></li><li><a href="module-scriptMapa.html">scriptMapa</a><ul class='methods'><li data-type='method'><a href="module-scriptMapa.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptMapa.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptMapa.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptMapa.html#~cedulaMapa">cedulaMapa</a></li><li data-type='method'><a href="module-scriptMapa.html#~datosMapa">datosMapa</a></li><li data-type='method'><a href="module-scriptMapa.html#~deleteConocimiento">deleteConocimiento</a></li><li data-type='method'><a href="module-scriptMapa.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptMapa.html#~objeto">objeto</a></li><li data-type='method'><a href="module-scriptMapa.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptMapa.html#~post">post</a></li><li data-type='method'><a href="module-scriptMapa.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptMapa.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptMapa.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptMapa.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptMapa.html#~tablaConocimientos">tablaConocimientos</a></li><li data-type='method'><a href="module-scriptMapa.html#~validacion">validacion</a></li></ul></li><li><a href="module-scriptRegistro.html">scriptRegistro</a><ul class='methods'><li data-type='method'><a href="module-scriptRegistro.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptRegistro.html#~alertaYellow">alertaYellow</a></li><li data-type='method'><a href="module-scriptRegistro.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptRegistro.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptRegistro.html#~botonAddPersonas">botonAddPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosHijos">datosHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~deleteHijo">deleteHijo</a></li><li data-type='method'><a href="module-scriptRegistro.html#~deletePersona">deletePersona</a></li><li data-type='method'><a href="module-scriptRegistro.html#~enableInput">enableInput</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedFormHijos">filedFormHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedFormPersonas">filedFormPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~formPersonas">formPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptRegistro.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptRegistro.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptRegistro.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptRegistro.html#~tablaHijos">tablaHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~tablaVinculados">tablaVinculados</a></li><li data-type='method'><a href="module-scriptRegistro.html#~validarHijos">validarHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~validarPersonas">validarPersonas</a></li></ul></li><li><a href="module-scriptVivienda.html">scriptVivienda</a><ul class='methods'><li data-type='method'><a href="module-scriptVivienda.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptVivienda.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptVivienda.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptVivienda.html#~cedulaVivienda">cedulaVivienda</a></li><li data-type='method'><a href="module-scriptVivienda.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptVivienda.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptVivienda.html#~getJSON">getJSON</a></li><li data-type='method'><a href="module-scriptVivienda.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptVivienda.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptVivienda.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptVivienda.html#~scrollFunction">scrollFunction</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">codigoGS.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * codigoGS
+ * @module codigoGS
+ */
+
+//Variables globales
+//var rutaWeb =  google.script.url();
+//var rutaWeb = "https://script.google.com/a/macros/sedic.com.co/s/AKfycbw5Uwvx7IpxZKayKzQ-tKiEZiLBVrHb_eCCn7i2Pap-ZOSGOAWxC-luYP0xdGkXhhsQ/exec"
+
+/**
+ * Contiene la url de la aplicación
+ * @type {string}
+ */
+var rutaWeb = "https://script.google.com/macros/s/AKfycbz2aHx3QLV7MkP8h7_LXlSsxsgDWq4XH3t0Xbb0vek/dev";
+
+/**
+ * Contiene el id de la base de datos
+ * @type {string}
+ */
+var ssId = "1UDgFUywTnmB7YZdJXp116eS1TcOxYgIEc9cEnIL7Cuo";
+var ssDb = "BD";
+
+
+
+
+/**
+ * Obtenemos correo y nombre del usuario para mostrar en el front
+ * @returns Un objeto con la información del usuario
+ */
+function userId() {
+
+  var correo = Session.getActiveUser().getEmail();
+  var nombre = ContactsApp.getContact(correo).getFullName();
+
+
+  var usuario = {
+    nombre: nombre,
+    correo: correo
+  }
+  return (usuario)
+}
+
+/*
+function doGet(e) {
+
+  var userData = userDatos()
+  var politicas = checkPoliticas()
+  if(!politicas[0]){
+    
+    var page = 'Home';
+  }
+  else if (userData.cedula != '') {
+    var page = e.parameter.p || 'Home';
+  } else {
+    var page = 'registro';
+  }
+
+  return HtmlService.createTemplateFromFile(page).evaluate()
+    .setSandboxMode(HtmlService.SandboxMode.IFRAME)
+    .addMetaTag('viewport', 'width=device-width, initial-scale=1, maximum-scale=2.0, user-scalable=yes')
+    .setTitle('DATATALENTO')
+    .setFaviconUrl('https://drive.google.com/uc?id=11VmVU-VhcrAi-_GjaxM048OZoL-2WpeM#.ico');
+
+}
+*/
+
+/**
+ * Permite incluir diferentes fragmentos de HTML en una archivo HTML padre
+ * @param {string} filename Nombre del fragmneto de HTML que desea insertar
+ * @returns Contenido de HTML del fragmento deseado
+ */
+function include(filename) {
+
+  return HtmlService.createHtmlOutputFromFile(filename).getContent();
+
+}
+
+/**
+ * Permite obtener los datos del usuario consignados en la base de datos
+ * @param {boolean} state 
+ * @returns un Array con la información personal
+ */
+function userDatos(state) {
+  //obtenemos correo y nombre
+  var ss = SpreadsheetApp.openById(ssId);
+  var db = ss.getSheetByName("Registro");
+  var data = db.getDataRange().getValues();
+
+  var datosUser = ShowValues();
+
+
+
+  var correo = datosUser.email
+  var nombre = datosUser.name
+  var cedula = ""
+
+  //Obtenemos la cedula del registro
+  for (i = 1; i &lt; data.length; i++) {
+    if (data[i][2] == correo) {
+      var cedula = data[i][3]
+    }
+  }
+
+  //devolvemos un objeto con la información personal
+  var arrayUser = {
+    correo: correo,
+    nombre: nombre,
+    cedula: cedula
+  }
+
+  return arrayUser
+}
+
+/**
+ * Permite realizar la busqueda de la información registrada en la base de datos para el formulario de registro
+ * @returns Objeto con la información del perfil sociodemografico
+ */
+function findDataRegistro() {
+  var tabla = 'Registro'
+  var ss = SpreadsheetApp.openById(ssId);
+  var db = ss.getSheetByName(tabla);
+  var data = db.getDataRange().getValues();
+  var user = userDatos()
+  var status = false
+  var datos = []
+  var info = {
+    datos: datos,
+    status: status
+  }
+
+  var keyCol = 0
+
+  //Buscamos en la tabla la columna que lleva la key
+  for (i = 0; i &lt; data[0].length; i++) {
+    if (data[0][i] == "Cédula") {
+      keyCol = i
+      break
+    }
+  }
+
+  for (i = 1; i &lt; data.length; i++) {
+
+    if (data[i][keyCol] == user.cedula) {
+      status = true
+      datos = data[i]
+      //transformamos la fecha en año-mes-dia para que el input la reconozca
+      var addedTime = Utilities.formatDate(new Date(data[i][5]), SpreadsheetApp.getActive().getSpreadsheetTimeZone(), 'yyyy-MM-dd');
+      datos[5] = addedTime
+      info = {
+        datos: datos,
+        status: status
+      }
+      break
+    }
+  }
+
+  return JSON.stringify(info)
+}
+
+/**
+ * Permite realizar una busqueda de información en tablas indexadas a partir de la cedula del usuario
+ * @param {string} tabla Nombre de la tabla en la que se realizara la busqueda
+ * @returns {object} info
+ */
+function findData2(tabla) {
+  var ss = SpreadsheetApp.openById(ssId);
+  var db = ss.getSheetByName(tabla);
+  var data = db.getDataRange().getValues();
+  var user = userDatos()
+  var status = false
+  var datos = []
+  var info = {
+    datos: datos,
+    status: status
+  }
+  var nMax = 0
+  var keyCol = 0
+  var idCol = 0
+  var colFecha = []
+
+  //Buscamos en la tabla la columna que lleva la key
+  for (i = 0; i &lt; data[0].length; i++) {
+    if (data[0][i] == "Cédula") {
+      keyCol = i
+      break
+    }
+  }
+
+  //Buscamos las columnas que tengan Fecha
+  for (i=0;i&lt; data[0].length;i++){
+    var fechaE= data[0][i].slice(0,5)
+    if(fechaE == "Fecha"){
+    colFecha.push(i)
+    }
+  }
+
+  //Buscamos en la tabla la columna que lleva el id
+  for (i = 0; i &lt; data[0].length; i++) {
+    if (data[0][i] == "Id") {
+      idCol = i
+      break
+    }
+  }
+
+  //buscamos el id más grande en la tabla asociado a la cedula
+  for (i = 1; i &lt; data.length; i++) {
+    if (data[i][keyCol] == user.cedula &amp;&amp; data[i][idCol] > nMax) {
+      nMax = data[i][idCol]
+    }
+  }
+
+  //buscamos las personas relacionados a la cedula
+  for (i = 1; i &lt; data.length; i++) {
+
+    if (data[i][keyCol] == user.cedula &amp;&amp; data[i][idCol] == nMax) {
+      status = true
+
+      for(j=0;j&lt;colFecha.length;j++){
+        
+        var fechaC = data[i][colFecha[j]]
+       data[i][colFecha[j]] = fechas(fechaC)
+       
+      }
+
+      datos.push(data[i])
+      info = {
+        datos: datos,
+        status: status
+      }
+    }
+  }
+  console.log(info)
+  return JSON.stringify(info)
+}
+
+/**
+ * Permite realizar una busqueda de información en tablas NO indexadas a partir de la cedula del usuario
+ * @param {string} tabla Nombre de la tabla en la que se realizara la busqueda
+ * @returns {object} info
+ */
+function findData(tabla) {
+
+  var ss = SpreadsheetApp.openById(ssId);
+  var db = ss.getSheetByName(tabla);
+  var data = db.getDataRange().getValues();
+  var user = userDatos()
+  var status = false
+  var datos = []
+  var info = {
+    datos: datos,
+    status: status
+  }
+  var keyCol = 0
+
+  //Buscamos en la tabla la columna que lleva la key
+  for (i = 0; i &lt; data[0].length; i++) {
+    if (data[0][i] == "Cédula") {
+      keyCol = i
+      break
+    }
+  }
+
+  //buscamos la info relacionados a la cedula
+  for (i = 1; i &lt; data.length; i++) {
+
+    if (data[i][keyCol] == user.cedula) {
+      status = true
+      datos.push(data[i])
+      info = {
+        datos: datos,
+        status: status
+      }
+    }
+  }
+  Logger.log(info)
+  return JSON.stringify(info)
+}
+
+/**
+ * Permite almacenar en la base de datos la información de un formulario
+ * @param {Array} data Contiene la informaciòn consignada en el formulario
+ * @param {string} tabla Nombre de la tabla en la que se registrará la información
+ * @param {number} ind Indice de la información
+ * @param {Boolean} state Si es true la tabla es indexada
+ */
+function postInDB(data, tabla, ind, state) {
+  var ss = SpreadsheetApp.openById(ssId);
+  var db = ss.getSheetByName(tabla);
+  var dataTable = db.getDataRange().getValues();
+  var lr = db.getLastRow() + 1;
+  var keyCol = 0
+
+  //Buscamos en la tabla la columna que lleva la key
+  for (i = 0; i &lt; dataTable[0].length; i++) {
+    if (dataTable[0][i] == "Cédula") {
+      keyCol = i
+      break
+    }
+  }
+
+  if (state == true) {
+    //Buscamos en la tabla si ya se realizo el registro previamente
+    for (i = 1; i &lt; dataTable.length; i++) {
+      if (dataTable[i][keyCol] == data[ind]) {
+        lr = i + 1
+        break
+      }
+    }
+  }
+
+
+  if (typeof data[0] != "object") {
+    data = [data]
+
+  }
+
+  db.getRange(lr, 1, data.length, data[0].length).setValues(data)
+}
+
+/**
+ * Permite obtener la información de un json con las ciudades de colombia
+ */
+function getJSON() {
+  var aUrl = "https://raw.githubusercontent.com/marcovega/colombia-json/master/colombia.min.json";
+  var response = UrlFetchApp.fetch(aUrl); // get feed
+  var dataAll = JSON.parse(response); //
+
+  for (item in dataAll) {
+    var departamentos = {
+      departamento: dataAll[item].departamento,
+      indice: item
+    }
+  }
+
+  Logger.log(dataAll.find(item => item.departamento == 'Santander'))
+
+}
+
+/**
+ * Se crean listas que obtiene datos de la hoja maestros
+ * @param {string} lista Nombre de la lista
+ * @returns Array con los elementos de la lista
+ */
+function listas(lista) {
+
+  var ss = SpreadsheetApp.openById(ssId);
+  var maestros = ss.getSheetByName('Maestros');
+
+  //Numero de elementos por cada lista el +2 es para traer los valores directamente
+  var nEspecialidad = maestros.getRange("A2").getValue() + 2;
+  var nTipo = maestros.getRange("B2").getValue() + 2;
+
+
+  //listas
+  var especialidad = maestros.getRange("A3:A" + nEspecialidad).getValues();
+  var tipo = maestros.getRange("B3:B" + nTipo).getValues();
+
+
+  //retorno
+  switch (lista) {
+    case "especialidad":
+      return especialidad
+      break;
+    case "tipo":
+      return tipo
+      break;
+  }
+}
+
+/**
+ * Permite registrar en la base de datos la aceptación de las politicas
+ */
+function politicas() {
+  var user = ShowValues();
+  var fecha = Utilities.formatDate(new Date(), SpreadsheetApp.getActive().getSpreadsheetTimeZone(), 'yyyy/MM/dd');
+  var arrayPoliticas = [[user.email, user.name, 'Aceptado', fecha]]
+
+  var ss = SpreadsheetApp.openById(ssId);
+  var db = ss.getSheetByName('Tratamiento de datos');
+  var dataTable = db.getDataRange().getValues();
+  var lr = db.getLastRow()+1;
+  var statusPoliticas = false
+
+  //Buscamos en la tabla si ya se realizo el registro previamente
+  for (i = 1; i &lt; dataTable.length; i++) {
+    if (dataTable[i][0] == arrayPoliticas[0][0]) {
+      statusPoliticas = true
+      break
+    }
+  }
+
+  if (typeof arrayPoliticas[0] != "object") {
+    arrayPoliticas = [arrayPoliticas]
+
+  }
+
+  if(!statusPoliticas){
+    db.getRange(lr, 1, arrayPoliticas.length, arrayPoliticas[0].length).setValues(arrayPoliticas)
+  }
+}
+
+/**
+ * Revisa en la base de datos si se aceptaron las politicas previamente
+ * @returns Array con la información de las politicas y la ruta de la app
+ */
+function checkPoliticas(){
+  var ss = SpreadsheetApp.openById(ssId);
+  var db = ss.getSheetByName('Tratamiento de datos');
+  var data = db.getDataRange().getValues();
+  var user = ShowValues()
+  var status = false
+  var datos = [status, rutaWeb]
+
+  //buscamos la info relacionados a la cedula
+  for (i = 1; i &lt; data.length; i++) {
+
+    if (data[i][0] == user.email) {
+      status = true
+      break
+    }
+  }
+  var datos = [status, rutaWeb]
+  console.log(datos)
+  return datos
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a> on Wed Oct 13 2021 09:52:21 GMT-0500 (hora estándar de Colombia) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>

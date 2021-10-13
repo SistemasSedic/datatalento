@@ -1,0 +1,21 @@
+{
+  "name": "ejemplo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json",
+    "deploy": "gh-pages -d doc"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docdash": "^1.2.0",
+    "jsdoc": "^3.6.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

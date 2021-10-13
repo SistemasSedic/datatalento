@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>scriptMapa.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-cargarDrive.html">cargarDrive</a><ul class='methods'><li data-type='method'><a href="module-cargarDrive.html#~saveFile">saveFile</a></li></ul></li><li><a href="module-codigoGS.html">codigoGS</a><ul class='methods'><li data-type='method'><a href="module-codigoGS.html#~checkPoliticas">checkPoliticas</a></li><li data-type='method'><a href="module-codigoGS.html#~findData">findData</a></li><li data-type='method'><a href="module-codigoGS.html#~findData2">findData2</a></li><li data-type='method'><a href="module-codigoGS.html#~findDataRegistro">findDataRegistro</a></li><li data-type='method'><a href="module-codigoGS.html#~getJSON">getJSON</a></li><li data-type='method'><a href="module-codigoGS.html#~include">include</a></li><li data-type='method'><a href="module-codigoGS.html#~listas">listas</a></li><li data-type='method'><a href="module-codigoGS.html#~politicas">politicas</a></li><li data-type='method'><a href="module-codigoGS.html#~postInDB">postInDB</a></li><li data-type='method'><a href="module-codigoGS.html#~userDatos">userDatos</a></li><li data-type='method'><a href="module-codigoGS.html#~userId">userId</a></li></ul></li><li><a href="module-codigoGS2.html">codigoGS2</a><ul class='methods'><li data-type='method'><a href="module-codigoGS2.html#~fechas">fechas</a></li><li data-type='method'><a href="module-codigoGS2.html#~findData3">findData3</a></li><li data-type='method'><a href="module-codigoGS2.html#~findDataRegistro2">findDataRegistro2</a></li><li data-type='method'><a href="module-codigoGS2.html#~postInDB">postInDB</a></li></ul></li><li><a href="module-loguin.html">loguin</a><ul class='methods'><li data-type='method'><a href="module-loguin.html#~checkLogin">checkLogin</a></li><li data-type='method'><a href="module-loguin.html#~doGet">doGet</a></li><li data-type='method'><a href="module-loguin.html#~doPost">doPost</a></li><li data-type='method'><a href="module-loguin.html#~PutValues">PutValues</a></li><li data-type='method'><a href="module-loguin.html#~ShowValues">ShowValues</a></li></ul></li><li><a href="module-scriptExperiencia.html">scriptExperiencia</a><ul class='methods'><li data-type='method'><a href="module-scriptExperiencia.html#~agregar">agregar</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~aplicarFormacion">aplicarFormacion</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~deleteExperiencia">deleteExperiencia</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~editarExperiencia">editarExperiencia</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~guardarInfo">guardarInfo</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~iniciar">iniciar</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~limpiarForm">limpiarForm</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptExperiencia.html#~tablaVinculados">tablaVinculados</a></li></ul></li><li><a href="module-scriptFormacion.html">scriptFormacion</a><ul class='methods'><li data-type='method'><a href="module-scriptFormacion.html#~agregar">agregar</a></li><li data-type='method'><a href="module-scriptFormacion.html#~alertaMsn">alertaMsn</a></li><li data-type='method'><a href="module-scriptFormacion.html#~aplicarFormacion">aplicarFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~arrayObjetos">arrayObjetos</a></li><li data-type='method'><a href="module-scriptFormacion.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptFormacion.html#~cargarInfo">cargarInfo</a></li><li data-type='method'><a href="module-scriptFormacion.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptFormacion.html#~deleteFormacion">deleteFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~editarFormacion">editarFormacion</a></li><li data-type='method'><a href="module-scriptFormacion.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptFormacion.html#~guardarInfo">guardarInfo</a></li><li data-type='method'><a href="module-scriptFormacion.html#~iniciar">iniciar</a></li><li data-type='method'><a href="module-scriptFormacion.html#~limpiarForm">limpiarForm</a></li><li data-type='method'><a href="module-scriptFormacion.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptFormacion.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptFormacion.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptFormacion.html#~tablaVinculados">tablaVinculados</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionAdjunto">validacionAdjunto</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionEstudios">validacionEstudios</a></li><li data-type='method'><a href="module-scriptFormacion.html#~validacionTarjeta">validacionTarjeta</a></li></ul></li><li><a href="module-scriptHome.html">scriptHome</a><ul class='methods'><li data-type='method'><a href="module-scriptHome.html#~aceptar">aceptar</a></li><li data-type='method'><a href="module-scriptHome.html#~checkPoliticas">checkPoliticas</a></li></ul></li><li><a href="module-scriptInfoLab.html">scriptInfoLab</a><ul class='methods'><li data-type='method'><a href="module-scriptInfoLab.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~cedulaInfoLab">cedulaInfoLab</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~datosInfoLab">datosInfoLab</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~deleteConocimiento">deleteConocimiento</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~especialidadList">especialidadList</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~objeto">objeto</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~post">post</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~tablaEspecialidad">tablaEspecialidad</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~tipoList">tipoList</a></li><li data-type='method'><a href="module-scriptInfoLab.html#~validacion">validacion</a></li></ul></li><li><a href="module-scriptIngresos.html">scriptIngresos</a><ul class='methods'><li data-type='method'><a href="module-scriptIngresos.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptIngresos.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptIngresos.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptIngresos.html#~cedulaIngresos">cedulaIngresos</a></li><li data-type='method'><a href="module-scriptIngresos.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptIngresos.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptIngresos.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptIngresos.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptIngresos.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptIngresos.html#~scrollFunction">scrollFunction</a></li></ul></li><li><a href="module-scriptLoguin.html">scriptLoguin</a><ul class='methods'><li data-type='method'><a href="module-scriptLoguin.html#~mostrarPassword">mostrarPassword</a></li></ul></li><li><a href="module-scriptMapa.html">scriptMapa</a><ul class='methods'><li data-type='method'><a href="module-scriptMapa.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptMapa.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptMapa.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptMapa.html#~cedulaMapa">cedulaMapa</a></li><li data-type='method'><a href="module-scriptMapa.html#~datosMapa">datosMapa</a></li><li data-type='method'><a href="module-scriptMapa.html#~deleteConocimiento">deleteConocimiento</a></li><li data-type='method'><a href="module-scriptMapa.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptMapa.html#~objeto">objeto</a></li><li data-type='method'><a href="module-scriptMapa.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptMapa.html#~post">post</a></li><li data-type='method'><a href="module-scriptMapa.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptMapa.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptMapa.html#~saveFile">saveFile</a></li><li data-type='method'><a href="module-scriptMapa.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptMapa.html#~tablaConocimientos">tablaConocimientos</a></li><li data-type='method'><a href="module-scriptMapa.html#~validacion">validacion</a></li></ul></li><li><a href="module-scriptRegistro.html">scriptRegistro</a><ul class='methods'><li data-type='method'><a href="module-scriptRegistro.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptRegistro.html#~alertaYellow">alertaYellow</a></li><li data-type='method'><a href="module-scriptRegistro.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptRegistro.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptRegistro.html#~botonAddPersonas">botonAddPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosHijos">datosHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptRegistro.html#~datosPersonas">datosPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~deleteHijo">deleteHijo</a></li><li data-type='method'><a href="module-scriptRegistro.html#~deletePersona">deletePersona</a></li><li data-type='method'><a href="module-scriptRegistro.html#~enableInput">enableInput</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedFormHijos">filedFormHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~filedFormPersonas">filedFormPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~formPersonas">formPersonas</a></li><li data-type='method'><a href="module-scriptRegistro.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptRegistro.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptRegistro.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptRegistro.html#~scrollFunction">scrollFunction</a></li><li data-type='method'><a href="module-scriptRegistro.html#~tablaHijos">tablaHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~tablaVinculados">tablaVinculados</a></li><li data-type='method'><a href="module-scriptRegistro.html#~validarHijos">validarHijos</a></li><li data-type='method'><a href="module-scriptRegistro.html#~validarPersonas">validarPersonas</a></li></ul></li><li><a href="module-scriptVivienda.html">scriptVivienda</a><ul class='methods'><li data-type='method'><a href="module-scriptVivienda.html#~alertaError">alertaError</a></li><li data-type='method'><a href="module-scriptVivienda.html#~backToTop">backToTop</a></li><li data-type='method'><a href="module-scriptVivienda.html#~barraProgreso">barraProgreso</a></li><li data-type='method'><a href="module-scriptVivienda.html#~cedulaVivienda">cedulaVivienda</a></li><li data-type='method'><a href="module-scriptVivienda.html#~datosPerfil">datosPerfil</a></li><li data-type='method'><a href="module-scriptVivienda.html#~filedForm">filedForm</a></li><li data-type='method'><a href="module-scriptVivienda.html#~getJSON">getJSON</a></li><li data-type='method'><a href="module-scriptVivienda.html#~perfil">perfil</a></li><li data-type='method'><a href="module-scriptVivienda.html#~postData">postData</a></li><li data-type='method'><a href="module-scriptVivienda.html#~progreso">progreso</a></li><li data-type='method'><a href="module-scriptVivienda.html#~scrollFunction">scrollFunction</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">scriptMapa.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * scriptMapa
+ * @module scriptMapa
+ */
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.formMapa')
+    var enviar = document.getElementById('enviar')
+    var status = document.getElementById("estadoForm")
+    var addConocimiento = document.getElementById("addConocimiento")
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+            addConocimiento.addEventListener('click', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    form.classList.add('was-validated')
+                }
+                else {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    datosMapa()
+                }
+            }, false)
+        })
+
+    //Si existen modificaciones genera una alerta y cambia el status de registro para guardar la modificacion
+    Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+            form.addEventListener('change', function (event) {
+                statusMapa = false
+                status.innerHTML = '&lt;span class="badge bg-warning text-dark">En progreso&lt;/span>'
+            }, false)
+        })
+
+    //Cuando damos en enviar guarda la info
+    enviar.addEventListener('click', function (event) {
+        event.preventDefault()
+        event.stopPropagation()
+        post()
+    }, false)
+})()
+
+//funciones que se ejecutaran cuando la pagina carge
+window.onload = function () {
+    //comprueba si se diligencio previamente y trae los datos
+    google.script.run.withSuccessHandler(filedForm).findData2('Mapa de Conocimiento')
+    google.script.run.withSuccessHandler(cedulaMapa).userDatos()
+    google.script.run.withSuccessHandler(perfil).ShowValues()
+};
+
+/**
+ * Inserta el nombre de usuario dentro de la barra lateral
+ * @param {object} user Objeto con los datos del usuario
+ */
+perfil = (user) => {
+    const per = document.getElementById("perfil")
+    per.innerHTML = user.name
+
+}
+
+/**
+ * Agrega la información personal al array Mapa
+ * @param {object} info Contiene información asociada a la sesión activa
+ */
+function cedulaMapa(info) {
+    infoGeneral = info
+}
+
+
+/**
+ * Permite rellenar el formulario con la información del mapa de conocimiento
+ * @param {Array} info Contiene información de ingresos proveniente de la base de datos para el usuario activo
+ */
+function filedForm(info) {
+    info = JSON.parse(info)
+
+    var i = 0
+
+    //Contruimos la tabla de personas en caso de que sea necesario
+    if (info.status == true) {
+
+        //modificamos el array personas
+        for (i = 0; i &lt; info.datos.length; i++) {
+            mapa.push({
+                cedula: info.datos[i][0],
+                tipo: info.datos[i][1],
+                conocimiento: info.datos[i][2],
+                nivel: info.datos[i][3],
+                documento: info.datos[i][4],
+                status: true
+            })
+            idMapa = info.datos[i][5]
+        }
+        tablaConocimientos()
+    }
+
+    const valor = progreso()
+    barraProgreso(valor)
+    var status = document.getElementById("estadoForm")
+    status.innerHTML = '&lt;span class="badge bg-success text-white">Guardado&lt;/span>'
+}
+
+
+/**
+ * Botón para realizar scroll automático a la zona superior de la página
+ * @type {HTMLObjectElement} 
+ * */
+let mybutton = document.getElementById("btn-back-to-top");
+
+/**
+ * Activa la función 
+ * @function window.onscroll
+ * */
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+    scrollFunction();
+};
+
+/**
+ * Cuando se hace scroll vertical de 20px activa el botón que permite hacer scroll automático
+ * @function scrollFunction
+ */
+function scrollFunction() {
+    if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+    ) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+/**
+ * Permite subir automaticamente a la zona superior de la página
+ * @function backToTop
+ */
+function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+//Variables globales
+/**
+ * Almacena toda la información del formulario de mapa de conocimiento
+ * @type {Array} 
+ * */
+var mapa = []
+var mapaPost = []
+
+var infoGeneral = {}
+var statusMapa = false
+var idMapa = 0
+var docFile = {}
+
+var docsDisponibles = 0
+var docsCargados = 0
+
+/**
+ * Obtiene los datos del mapa de conocimiento y los almacena en el array {@link mapa}
+ * */
+function datosMapa() {
+    //agregamos los valores al array
+    const tipo = document.getElementById("tipo");
+    const conocimiento = document.getElementById("conocimiento");
+    const nivel = document.getElementById("nivel");
+    const documento = document.getElementById("documento");
+    const form = document.getElementById('formMapa');
+    var upload = false
+
+    //Si no se carga ningun archivo el status es true para que no intente subirlo
+    if (documento.value == '') {
+        upload = true
+        docFile = ''
+    }
+
+    mapa.push({
+        cedula: infoGeneral.cedula,
+        tipo: tipo.value,
+        conocimiento: conocimiento.value,
+        nivel: nivel.value,
+        documento: docFile,
+        status: upload
+    })
+
+    //limpiamos los imputs
+    form.reset()
+    form.classList.remove('was-validated');
+
+    //Generamos la tabla
+    tablaConocimientos()
+    statusMapa = false
+
+    //calcula el progreso
+    const valor = progreso()
+    barraProgreso(valor)
+}
+
+/**
+ *Genera la tabla con todos los conocimientos ingresados
+ */
+function tablaConocimientos() {
+
+    var tabla =
+        `&lt;table class="table table-hover mb-4 text-center">
+          &lt;thead class="bg-dark text-white">
+            &lt;tr>
+              &lt;th scope="col">Tipo&lt;/th>
+              &lt;th scope="col">Conocimiento&lt;/th>
+              &lt;th scope="col">Nivel&lt;/th>
+              &lt;th scope="col">Documento&lt;/th>
+              &lt;th scope="col">Eliminar&lt;/th>
+            &lt;/tr>
+          &lt;/thead>
+          &lt;tbody>
+          ${mapa.map(function (conocimiento, index) {
+            return (
+                `&lt;tr>
+                  &lt;td>${conocimiento.tipo}&lt;/td>
+                  &lt;td>${conocimiento.conocimiento}&lt;/td>
+                  &lt;td>${conocimiento.nivel}&lt;/td>
+                  &lt;td>${conocimiento.status ? conocimiento.documento ?
+                    `&lt;a href=${conocimiento.documento} target="_blank">&lt;span>&lt;i class="far fa-eye">&lt;/i>&lt;/i>
+                      &lt;/span>&lt;/a>` :
+                    `&lt;span>&lt;i class="far fa-eye-slash">&lt;/i>&lt;/i>&lt;/i>
+                      &lt;/span>&lt;/a>` : statusMapa ?
+                    `&lt;div>${conocimiento.documento.name} &lt;div class="spinner-border spinner-border-sm 
+                      text-success" role="status">
+                      &lt;/div>&lt;/div>`: conocimiento.documento.name
+                }
+                  &lt;/td>
+                  &lt;td>&lt;span onclick="deleteConocimiento(${index})">&lt;i class="fas fa-trash">&lt;/i>&lt;/i>&lt;/span>&lt;/td>
+                &lt;/tr>`
+            )
+        }).join(" ")
+        }
+          &lt;/tbody>
+        &lt;/table>`
+
+    document.getElementById("tablaConocimientos").innerHTML = tabla
+    document.documentElement.scrollTop = document.documentElement.scrollHeight;
+}
+
+//Permite eliminar un conocimiento del array
+/**
+ * Permite eliminar un conocimiento del array
+ * @param {number} index Indice del conocimiento en el array 
+ */
+function deleteConocimiento(index) {
+    if (mapa.length > 1) {
+        mapa.splice(index, 1)
+        tablaConocimientos()
+    } else {
+        mapa = []
+        document.getElementById("tablaConocimientos").innerHTML = ""
+        const valor = progreso()
+        barraProgreso(valor)
+    }
+
+    var status = document.getElementById("estadoForm")
+    status.innerHTML = '&lt;span class="badge bg-warning text-dark">En progreso&lt;/span>'
+    statusRegistro = false
+}
+
+/**
+ * Verifica el formulario para llevar la información a la base de datos
+ */
+function post() {
+
+    const valor = progreso()
+    barraProgreso(valor)
+
+    //Si se completa el progreso y no se ha registrado se lleva a la base de datos
+    if (valor == 100) {
+        postData()
+    }
+    else {
+        alertaError({
+            titulo: "Información faltante",
+            descripcion: "Por favor agregue al menos un conocimiento para continuar"
+        })
+    }
+}
+
+/**
+ * Calcula el progreso general del formulario
+ * @returns Porcentaje de llenado del formulario
+ */
+function progreso() {
+    if (mapa.length > 0) {
+        var valor = 100
+    } else {
+        valor = 0
+    }
+    return valor
+}
+
+/**
+ * Modifica la barra de progreso mostrando el porcentaje de progreso
+ * @param {number} valor Porcentaje de avance general del formulario
+ */
+function barraProgreso(valor) {
+    const barra = document.querySelector('.progress-bar')
+    barra.setAttribute("style", `width: ${valor}%`)
+    barra.setAttribute("aria-valuenow", valor)
+    barra.innerHTML = `${valor}%`
+}
+
+/**
+ * Genera una alerta de error (toast)
+ * @param {string} info Texto que se mostrará en la alerta
+ */
+function alertaError(info) {
+    var option = {
+        animation: true,
+        delay: 2000,
+    }
+
+    var toastBody =
+        `&lt;div class="toast-container position-fixed bottom-0 end-0 p-3">
+
+            &lt;div class="toast text-white" role="alert" aria-live="assertive" aria-atomic="true">
+                &lt;div class="toast-header bg-danger text-white">
+                    &lt;i class="fas fa-exclamation-triangle rounded me-2">&lt;/i>
+                    &lt;strong class="me-auto">${info.titulo}&lt;/strong>
+                    &lt;small class="text-white">Ahora&lt;/small>
+                    &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">&lt;/button>
+                &lt;/div>
+                &lt;div class="toast-body bg-danger">
+                    ${info.descripcion}
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>`
+
+    const noti = document.getElementById('notificaciones').innerHTML = toastBody
+
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl, option)
+    })
+
+    toastList.map(function (toast) {
+        toast.show()
+    })
+}
+
+/**
+ * Permite llevar la información de el objeto vivienda a la base de datos
+ */
+function postData() {
+    if (statusMapa == false) {
+
+        //Cambiamos el estado de registro
+        statusMapa = true
+        tablaConocimientos()
+
+        //Nos permite si se deben o no subir archivos
+        var banderaUpload = false
+
+        //cargamos los archivos en el drive
+        for (i = 0; i &lt; mapa.length; i++) {
+
+            var doc = mapa[i].documento
+            if (doc != "" &amp;&amp; mapa[i].status == false) {
+                saveFile(doc, i)
+                docsDisponibles += 1
+                banderaUpload = true
+            }
+        }
+
+        //Si no se deben subir archivos no se realiza validación de carga y se guarda directamente
+        if (!banderaUpload) {
+            //Agregamos el id y transformamos los objetos en arrays
+            idMapa += 1
+            for (i = 0; i &lt; mapa.length; i++) {
+                mapa[i].id = idMapa
+                var mapaArray = Object.values(mapa[i])
+                mapaArray.splice(5, 1)
+                mapaPost.push(mapaArray)
+            }
+            google.script.run.postInDB(Object.values(mapaPost), "Mapa de Conocimiento", 1, false);
+
+            //cambiamos el estado
+            var status = document.getElementById("estadoForm")
+            status.innerHTML = '&lt;span class="badge bg-success text-white">Guardado&lt;/span>'
+            mapaPost = []
+        }
+    }
+}
+
+/**
+ * Permite ingresar la información de los documentos seleccionados dentro de una variable
+ * @param {object} file Archivo que se desea cargar
+ */
+function objeto(file) {
+    docFile = file.files[0];
+}
+
+/**
+ * Permite hacer el llamado a la función en el servidor encargada de subir los documentos a drive
+ * @param {object} file Archivo que se desea cargar
+ * @param {number} index Indice dentro del array de conocimientos
+ */
+function saveFile(file, index) {
+    const idFolder = '1-MuyhkLbfu1KJfr8tv4OyjBIRZxMiAdH'
+
+    const fr = new FileReader();
+    fr.onload = function (e) {
+        const obj = {
+            filename: file.name,
+            mimeType: file.type,
+            bytes: [...new Int8Array(e.target.result)]
+        };
+        google.script.run.withSuccessHandler(validacion).saveFile(obj, idFolder, index);
+
+    };
+    fr.readAsArrayBuffer(file);
+}
+
+
+/**
+ * Valida cuando el documento se sube
+ * @param {Array} data Contiene información sobre el estado de carga del documento, su URL y el indice del mismo en el array de conocimientos
+ */
+function validacion(data) {
+
+    const [estadoBlob, urlFile, index] = data
+    docsCargados += 1
+
+    //cargamos la url
+    if (estadoBlob == true) {
+        mapa[index].documento = urlFile
+        mapa[index].status = true
+    }
+    tablaConocimientos()
+
+    //Si ya se cargaron todos los documentos llevamos la info a la base de datos
+    if (docsCargados == docsDisponibles) {
+
+        //Agregamos el id y transformamos los objetos en arrays
+        idMapa += 1
+        for (i = 0; i &lt; mapa.length; i++) {
+            mapa[i].id = idMapa
+            var mapaArray = Object.values(mapa[i])
+            mapaArray.splice(5, 1)
+            mapaPost.push(mapaArray)
+        }
+        google.script.run.postInDB(Object.values(mapaPost), "Mapa de Conocimiento", 1, false);
+
+        //cambiamos el estado
+        var status = document.getElementById("estadoForm")
+        status.innerHTML = '&lt;span class="badge bg-success text-white">Guardado&lt;/span>'
+        mapaPost = []
+    }
+
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a> on Wed Oct 13 2021 09:52:21 GMT-0500 (hora estándar de Colombia) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
